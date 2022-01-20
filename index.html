@@ -2,13 +2,13 @@
 <html>
     <head>
         <mate charest="utf-8" />
-        <title>Hello world2!</title>
+        <title>WaMe</title>
     </head>
     <body>
         <form action="https://wa.me/+972">
          <label for="fname">Enter Phone Number</label>
-         <input type="text" id="fname" name="fname"><br><br>
-         <input type="submit" value="Submit">
+         <input type="number" id="phone" name="phone"><br><br>
+         <input type="submit" value="Submit" onclick="location.href=document.getElementById('phone').value">
         </form>
     </body>
 </html>
